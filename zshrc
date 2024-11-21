@@ -70,9 +70,9 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
-export BROWSER="/mnt/c/Program Files/Mozilla Firefox/firefox.exe"
-export GH_BROWSER="'/mnt/c/Program Files/Mozilla Firefox/firefox.exe'"
-export BROWSER="/mnt/c/Program Files (x86)/Mozilla Firefox/firefox.exe"
-export GH_BROWSER="'/mnt/c/Program Files (x86)/Mozilla Firefox/firefox.exe'"
+export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+export GH_BROWSER="'/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'"
+export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+export GH_BROWSER="'/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'"
 sudo /etc/init.d/postgresql start
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+eval "$(rbenv init - zsh)"
